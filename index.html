@@ -13,24 +13,24 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-     <body>
+     <body style="background-color: #081028;">
          <!-- navbar -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <nav class="navbar navbar-expand-lg " style="background: linear-gradient(#07235E ,#081028 );">
             <div class="container-fluid">
-              <a class="navbar-brand" >LOGO</a>
+              <a class="navbar-brand text-light">Anirekun</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#" >HOME</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-current="page">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-current="page">
                       GENRE
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,12 +41,21 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Donate</a>
+                    <a class="nav-link text-light" aria-current="page" href="#">Ongoing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#">Complate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light btn btn-outline-info fs-6 ms-4 rounded-4 btn-block active"  aria-current="page" href="#">Donate</a>
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Search Anime" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
               </div>
             </div>
@@ -56,52 +65,348 @@
 <main>
 
       <!-- hero  -->
-       <div class="hero">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <div class="card bg-dark text-white">
+              <img src="img/banner/Beast.png" class=" filter-dark d-block w-100 card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+              </div>
+            </div>
+            </div>
+          <div class="carousel-item">
+            <img src="img/banner/Oniichan.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner/Saes.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner/Spy.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+       <!-- <div class="hero">
         <img src="img/img3.jpg" class="img-fluid" alt="...">
-       </div>
+       </div> -->
        <!-- End hero -->
        <br>
+          
+      <!-- Genre -->
+       
+        <div class="  row float-right " >
+          <div class=" d-grid gap-3 text-light ml-5 text-left" >
+        
+          <div class="card bg-dark rounded-2 col-sm-10 p-2" style="width: 450px;">
+            <div class="row row-cols-"style="width: 390px;">
+              <h1 class="fs-4 ms-3" style="margin-right:400px">Gendre</h1>
+            <hr class="ms-2 border-top">
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 g-4" >
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0" style="font-size: 12px;">Action</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0" style="font-size: 12px;">Comedy</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0 text-left" style="font-size: 12px;">Romance</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0"style="font-size: 12px;">Ecchi</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0" style="font-size: 12px;">Drama</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0"style="font-size: 12px;" >Fatasy</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0" style="font-size: 12px;">Ecchi</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0"style="font-size: 12px;">Drama</button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-light btn-lg btn-block border-0"style="font-size: 12px;">Fatasy</button>
+              </div> 
+            </div>
+            <button class=" fs-6 btn btn-secondary mx-auto w-100 p-2">Lebih banyak</button>
+            <!-- <button class=" fs-6 btn btn-secondary mx-auto  btn-block text-center p-3 fs-6 " style="width:400px;">Lebih banyak</button> -->
+           </div>
+        <!-- End genre -->
+
+        <!-- cara download -->
+            <div class="card bg-dark rounded-2 col-sm-10 p-2" style="width: 450px;">
+            <div class="row row-cols-"style="width: 390px;">
+              <h1 class="fs-4 ms-2" style="margin-right:400px">Cara download </h1>
+            <hr class="ms-2 border-top">
+            </div>
+             <p>
+              Jika kesulitan untuk mendonwload click disini untuk melihat tutorialnya
+             </p>
+            <button class=" fs-6 btn btn-secondary mx-auto w-100 p-2">Lihat tutorial</button>
+            <!-- <button class=" fs-6 btn btn-secondary mx-auto  btn-block text-center p-3 fs-6 " style="width:400px;">Lebih banyak</button> -->
+           </div>
+         <!-- end download  -->
+         
+        <!-- Infomasi link rusak-->
+        <div class="card bg-dark rounded-2 col-sm-10 p-2" style="width: 450px;">
+          <div class="row row-cols-"style="width: 390px;">
+            <h1 class="fs-4 ms-2" style="margin-right:400px">Laporan link rusak</h1>
+          <hr class="ms-2 border-top">
+          </div>
+           <p>
+            Jika ada link rusak silahkan lapor disini
+           </p>
+          <button class=" fs-6 btn btn-secondary mx-auto w-100 p-2">Laporkan link rusak</button>
+          <!-- <button class=" fs-6 btn btn-secondary mx-auto  btn-block text-center p-3 fs-6 " style="width:400px;">Lebih banyak</button> -->
+         </div>
+       <!-- end informasi link rusak  -->
+          </div>
+         
+         </div>
     
-      <div class="ongoing">
-      <h1> ANIME ONGOING</h1>
+       <!-- ongoing  -->
+       <div class="container ml-sm-3 col-8"> 
+          <div class="row row-cols-1  row-cols-md-2 ">
+            <div class="text-light">
+              <h1 class="fs-4 ms-2 "> ANIME ONGOING</h1>
+              </div>
+              <div class="text-light text-right ">
+                <h1 class="fs-6 mr-3">More anime<i class="fa fa-angle-right ms-2"></i></h1>
+                </div>
+           </div>
+        <div class="row row-cols-1 row-cols-md-5 g-4 ">
+          <div class="col">
+            <div class="card" style="background-color: #081733;" >
+              <img src="img/Bea2.png" class="card-img-top image " alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+                <p class="fs-6 mt-2 text-center text-light">Beast tamer</p>
+            </div>
+         
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;" >
+              <img src="img/Renai.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Renai ploops</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/bochi.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light ">Bocchi the rock</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Futo.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Futoku No Guild</p>
+            </div>
+          </div>        
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Spy.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Spy x Family</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Onii.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class="mt-2  text-center text-light">onichan wa Oshimai!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Kage.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light ">The Eminence in Shadow</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Sae.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class="mt-2 text-center text-light">Saenai Heroine no Sodatekata</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Oji.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px" he></div>
+              </div>
+              <p class="mt-2 text-center text-light">Uncle from Another World</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Fuu.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px" height="200px"></div>
+              </div>
+              <p class="mt-2  text-center text-light" style="font-size: 12px;">Fuufu Ijou, Koibito Miman.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End ongoing -->
+
         
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <!-- Complate -->
+      <div class="lebar">
+        <div class="container ml-sm-3 col-8 mt-4"> 
+          <div class="row row-cols-1  row-cols-md-2 col-12 ">
+            <div class="text-light">
+              <h1 class="fs-4 ms-2 "> ANIME Complate</h1>
+              </div>
+              <div class="text-light text-right ">
+                <h1 class="fs-6 mr-sm-1">More anime<i class="fa fa-angle-right ms-2"></i></h1>
+                </div>
+           </div>
+        <div class="row row-cols-1 row-cols-md-5 g-4 col-12">
+          <div class="col">
+            <div class="card" style="background-color: #081733;" >
+              <img src="img/Bea2.png" class="card-img-top image " alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+                <p class="fs-6 mt-2 text-center text-light">Beast tamer</p>
+            </div>
+         
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;" >
+              <img src="img/Renai.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Renai ploops</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/bochi.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light ">Bocchi the rock</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Futo.png" class="card-img-top image" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Futoku No Guild</p>
+            </div>
+          </div>        
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Spy.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light">Spy x Family</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Onii.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class="mt-2  text-center text-light">onichan wa Oshimai!</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Kage.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class=" mt-2 text-center text-light ">The Eminence in Shadow</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Sae.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px"></div>
+              </div>
+              <p class="mt-2 text-center text-light">Saenai Heroine no Sodatekata</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Oji.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px" he></div>
+              </div>
+              <p class="mt-2 text-center text-light">Uncle from Another World</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="background-color: #081733;">
+              <img src="img/Fuu.png" class="card-img-top" alt="...">
+              <div class="middle">
+                <div class="text"><img src="img/icon/Play2.png" alt="" width="160px" height="200px"></div>
+              </div>
+              <p class="mt-2  text-center text-light" style="font-size: 12px;">Fuufu Ijou, Koibito Miman.</p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-       
+        <!-- End ongoing -->
+  
+        
       </div>
+
+
+      </div>
+     
+       <!-- end complate -->
+        
+    
+       
       <br>
       <br>
 </main>
     <footer> 
           <div class="footer-content">
-             <h3>Resse otaku</h3>
+             <h3>Anirekun</h3>
              <p>Website anime terbaik pilihan para otaku</p>
               <ul class="socials">
                    <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -110,7 +415,7 @@
               </ul>
           </div>
            <div class="footer-copyright">
-               <p>Copyright $Copy; 2022 Resseotaku. Designed by <span>Zumi</span></p>
+               <p>Copyright ©Copy; 2022 Anirekun. Designed by <span>Zumi</span></p>
            </div>
     </footer>
 
